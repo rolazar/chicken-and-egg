@@ -1,0 +1,92 @@
+body {
+  color: white;
+  background-color: #000038;
+}
+
+img {
+  border-radius: 2vh;
+}
+
+#mobile-device {
+  border-style: solid;
+  height: 90vh;
+  width: 50vh;
+  border-radius: 8vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top-panel {
+  background-color: gainsboro;
+  height: 12vh;
+  border-top-left-radius: 8vh;
+  border-top-right-radius: 8vh;
+}
+
+#display {
+  background-color: black;
+  height: 66vh;
+}
+
+#bottom-panel {
+  background-color: gainsboro;
+  height: 12vh;
+  border-bottom-left-radius: 8vh;
+  border-bottom-right-radius: 8vh;
+}
+
+#homeScreen {
+  background-image: url(road.jpg);
+  background-size: cover;
+}
+
+#images {
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 4vh;
+}
+
+#buttons div {
+  flex-basis: 15vh;
+}
+
+#whatCameFirst {
+  font-size: 11vh;
+}
+
+#chickenFirst {
+  font-size: 7vh;
+}
+
+.button {
+  height: 5vh;
+  background-color: burlywood;
+  min-height: 9vh;
+  min-width: 20vh;
+  border-radius: 5vh;
+  text-align: center;
+  align-content: center;
+}
+
+.label {
+  text-align: center;
+}
+
+.screen {
+  height: 66vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.imageBox {
+  display: flex;
+  height: 20vh;
+  justify-content: space-around;
+}
