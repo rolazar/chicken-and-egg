@@ -1,3 +1,4 @@
+console.log("Starting app...");
 //When the CHICKEN button is clicked...
 onEvent("chickenButton", "click", function () {
   //... go to the CHICKEN screen.
@@ -23,3 +24,4 @@ onEvent("eggButton", "click", function () {
 //When the CHICKEN? button is clicked...
 //... go to the CHICKEN screen.
 //... play the CHICKEN sound.
+console.log("Waiting for user input...");
